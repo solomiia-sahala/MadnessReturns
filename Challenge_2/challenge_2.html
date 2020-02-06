@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Challenge 2</title>
+</head>
+
+<body>
+    <script>
+        const averageJohnsScore = (89 + 120 + 103) / 3;
+        const averageMikesScore = (116 + 94 + 123) / 3;
+        const averageMarysScore = (97 + 134 + 105) / 3;
+
+        if (averageJohnsScore > averageMikesScore && averageJohnsScore > averageMarysScore) {
+            console.log(`The winner is : John\`s team ${averageJohnsScore}`);
+        } else if (averageMarysScore > averageJohnsScore && averageMarysScore > averageMikesScore) {
+            console.log(`The winner is: Mary\`s team ${averageMarysScore}`);
+        } else if (averageMikesScore > averageJohnsScore && averageMikesScore > averageMarysScore) {
+            console.log(`The winner is : Mike\`s team ${averageMikesScore}`);
+        } else {
+            console.log('Your score are the same!');
+        }
+    </script>
+</body>
+
+</html>
